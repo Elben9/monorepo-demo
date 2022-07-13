@@ -1,7 +1,8 @@
 {
-  "name": "apis",
+  "name": "@elben/apis",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "main": "index.ts",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -10,5 +11,8 @@
   "devDependencies": {
     "typescript": "^4.5.4",
     "vite": "^2.9.9"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
   }
 }
