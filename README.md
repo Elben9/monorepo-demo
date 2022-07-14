@@ -11,3 +11,5 @@
 在package项目中通过pnpm add @elben/apis （或其他pkg name） 来导入公共组件或Ts
 
 packages/h5-client 使用了公共Ts方法和公共Vue组件作为测试
+
+pnpm run dev --filter <name> 来运行packages中的任意项目
